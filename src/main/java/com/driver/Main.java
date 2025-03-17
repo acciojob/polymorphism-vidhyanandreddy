@@ -13,6 +13,7 @@ public class Main {
         }
     }
 
+
     public static void main(String[] args) {
         Product p = new Product();
         System.out.println("Product of 2 and 3: " + p.product(2, 3));
