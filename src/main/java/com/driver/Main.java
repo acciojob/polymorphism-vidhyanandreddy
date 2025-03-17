@@ -5,7 +5,6 @@ public class Main {
         public int product(int x, int y) {
             return x * y;
         }
-
         public int product(int x, int y, int z) {
             return x * y * z;
         }
@@ -13,7 +12,6 @@ public class Main {
             return x * y;
         }
     }
-
 
     public static void main(String[] args) {
         Product p = new Product();
