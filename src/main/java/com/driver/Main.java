@@ -14,8 +14,8 @@ public class Main {
     }
     public static void main(String[] args) {
         Product p = new Product();
-        System.out.println("Product of 2 and 3: " + p.product(2, 3));
-        System.out.println("Product of 2, 3, and 4: " + p.product(2, 3, 4));
-        System.out.println("Product of 2.5 and 3.5: " + p.product(2.5, 3.5));
+        System.out.println("Product of two Integers: " + p.product(2, 3));
+        System.out.println("Product of three Integers: " + p.product(2, 3, 4));
+        System.out.println("Product of two Doubles: " + p.product(2.5, 3.5));
     }
 }
